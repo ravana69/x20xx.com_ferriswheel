@@ -1,0 +1,255 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<!-- Mirrored from x20xx.com/ferriswheel.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 30 Nov 2022 06:26:17 GMT -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!-- 5-2013 -->
+
+<title>: FerrisWheel </title>
+
+
+
+<style type="text/css">
+
+ html, body { 
+      overflow:hidden;
+      margin:0; padding:0; border:0; height:100%;  
+       font-size:240px; font-family: Courier New, Monaco, monospace;
+      }
+      
+      img { 
+    image-rendering: optimizeSpeed;             /*                     */
+    image-rendering: -moz-crisp-edges;          /* Firefox             */
+    image-rendering: -o-crisp-edges;            /* Opera               */
+    image-rendering: -webkit-optimize-contrast; /* Chrome (and Safari) */
+    image-rendering: optimize-contrast;         /* CSS3 Proposed       */
+    -ms-interpolation-mode: nearest-neighbor;   /* IE8+                */
+    }
+    
+.container {
+xxbackground:black;
+width:80px; height:80px; margin-left:110px;margin-top:400px;margin-bottom:400px;
+-webkit-perspective:1000px;
+perspective:1000px;
+
+}
+.rotate {width:480px; height:480px; position:relative;
+-webkit-transform-style:preserve-3d; /* for Chrome */
+transform-style:preserve-3d; /* for Firefox */
+/* IE10 does not support preserve-3d so will ignore the above */
+-webkit-transform: translate3d(0,0,-100px);
+-webkit-perspective:1000px;
+transform: translate3d(0,0,-100px);
+perspective:1000px;
+}
+.rotate img {width:480px; height:480px; position:absolute; left:0; top:0; perspective:1000px;}
+
+.p1 {
+-webkit-animation:spin1 2s infinite linear;
+animation:spin1 2s infinite linear;
+}
+.p2 {
+-webkit-animation:spin2 2s infinite linear;
+animation:spin2 2s infinite linear;
+}
+.p3 {
+-webkit-animation:spin3 2s infinite linear;
+animation:spin3 2s infinite linear;
+}
+.p4 {
+-webkit-animation:spin4 2s infinite linear;
+animation:spin4 2s infinite linear;
+}
+.p5 {
+-webkit-animation:spin5 2s infinite linear;
+animation:spin5 2s infinite linear;
+}
+.p6 {
+-webkit-animation:spin6 2s infinite linear;
+animation:spin6 2s infinite linear;
+}
+.p7 {
+-webkit-animation:spin7 2s infinite linear;
+animation:spin7 2s infinite linear;
+}
+.p8 {
+-webkit-animation:spin8 2s infinite linear;
+animation:spin8 2s infinite linear;
+}
+.p9 {
+-webkit-animation:spin9 2s infinite linear;
+animation:spin9 2s infinite linear;
+}
+
+/* for Chrome */
+@-webkit-keyframes spin1 {
+0% {-webkit-transform: rotateY(40deg) rotateX(0deg) translate3d(0,0,350px) rotateX(0deg) rotateY(-40deg); opacity:1;}
+55% {opacity:0.5;}
+100% {-webkit-transform: rotateY(40deg) rotateX(360deg) translate3d(0,0,350px) rotateX(-360deg) rotateY(-40deg); opacity:1;}
+}
+@-webkit-keyframes spin2 {
+0% {-webkit-transform: rotateY(40deg) rotateX(40deg) translate3d(0,0,350px) rotateX(-40deg) rotateY(-40deg); opacity:0.9;}
+44% {opacity:0.5;}
+88% {opacity:1;}
+100% {-webkit-transform: rotateY(40deg) rotateX(400deg) translate3d(0,0,350px) rotateX(-400deg) rotateY(-40deg); opacity:0.9;}
+}
+@-webkit-keyframes spin3 {
+0% {-webkit-transform: rotateY(40deg) rotateX(80deg) translate3d(0,0,350px) rotateX(-80deg) rotateY(-40deg); opacity:0.8;}
+33% {opacity:0.5;}
+77% {opacity:1;}
+100% {-webkit-transform: rotateY(40deg) rotateX(440deg) translate3d(0,0,350px) rotateX(-440deg) rotateY(-40deg); opacity:0.8;}
+}
+@-webkit-keyframes spin4 {
+0% {-webkit-transform: rotateY(40deg) rotateX(120deg) translate3d(0,0,350px) rotateX(-120deg) rotateY(-40deg); opacity:0.7;}
+22% {opacity:0.5;}
+66% {opacity:1;}
+100% {-webkit-transform: rotateY(40deg) rotateX(480deg) translate3d(0,0,350px) rotateX(-480deg) rotateY(-40deg); opacity:0.7;}
+}
+@-webkit-keyframes spin5 {
+0% {-webkit-transform: rotateY(40deg) rotateX(160deg) translate3d(0,0,350px) rotateX(-160deg) rotateY(-40deg); opacity:0.6;}
+11% {opacity:0.5;}
+55% {opacity:1;}
+100% {-webkit-transform: rotateY(40deg) rotateX(520deg) translate3d(0,0,350px) rotateX(-520deg) rotateY(-40deg); opacity:0.6;}
+}
+@-webkit-keyframes spin6 {
+0% {-webkit-transform: rotateY(40deg) rotateX(200deg) translate3d(0,0,350px) rotateX(-200deg) rotateY(-40deg); opacity:0.6;}
+44% {opacity:1;}
+100% {-webkit-transform: rotateY(40deg) rotateX(560deg) translate3d(0,0,350px) rotateX(-560deg) rotateY(-40deg); opacity:0.6;}
+}
+@-webkit-keyframes spin7 {
+0% {-webkit-transform: rotateY(40deg) rotateX(240deg) translate3d(0,0,350px) rotateX(-240deg) rotateY(-40deg); opacity:0.7;}
+33% {opacity:1;}
+88% {opacity:0.5;}
+100% {-webkit-transform: rotateY(40deg) rotateX(600deg) translate3d(0,0,350px) rotateX(-600deg) rotateY(-40deg); opacity:0.7;}
+}
+@-webkit-keyframes spin8 {
+0% {-webkit-transform: rotateY(40deg) rotateX(280deg) translate3d(0,0,350px) rotateX(-280deg) rotateY(-40deg); opacity:0.8;}
+22% {opacity:1;}
+77% {opacity:0.5;}
+100% {-webkit-transform: rotateY(40deg) rotateX(640deg) translate3d(0,0,350px) rotateX(-640deg) rotateY(-40deg); opacity:0.8;}
+}
+@-webkit-keyframes spin9 {
+0% {-webkit-transform: rotateY(40deg) rotateX(320deg) translate3d(0,0,350px) rotateX(-320deg) rotateY(-40deg); opacity:0.9;}
+11% {opacity:1;}
+66% {opacity:0.5;}
+100% {-webkit-transform: rotateY(40deg) rotateX(680deg) translate3d(0,0,350px) rotateX(-680deg) rotateY(-40deg); opacity:0.9;}
+}
+
+/* IE10 require z-index to stack the images in the right order - other browsers use preserve-3d */
+@keyframes spin1 {
+0% {transform: rotateY(40deg) rotateX(0deg) translate3d(0,0,350px) rotateX(0deg) rotateY(-40deg); z-index:10; opacity:1;}
+11% {opacity:1; z-index:10;}
+55% {opacity:0.6; z-index:6;}
+100% {transform: rotateY(40deg) rotateX(360deg) translate3d(0,0,350px) rotateX(-360deg) rotateY(-40deg); z-index:10; opacity:1;}
+}
+@keyframes spin2 {
+0% {transform: rotateY(40deg) rotateX(40deg) translate3d(0,0,350px) rotateX(-40deg) rotateY(-40deg); z-index:9; opacity:0.9;}
+44% {opacity:0.5; z-index:6;}
+88% {opacity:1; z-index:10;}
+100% {transform: rotateY(40deg) rotateX(400deg) translate3d(0,0,350px) rotateX(-400deg) rotateY(-40deg); z-index:9; opacity:0.9;}
+}
+@keyframes spin3 {
+0% {transform: rotateY(40deg) rotateX(80deg) translate3d(0,0,350px) rotateX(-80deg) rotateY(-40deg); z-index:8; opacity:0.8;}
+33% {opacity:0.5; z-index:6;}
+77% {opacity:1; z-index:10;}
+100% {transform: rotateY(40deg) rotateX(440deg) translate3d(0,0,350px) rotateX(-440deg) rotateY(-40deg); z-index:8; opacity:0.8;}
+}
+@keyframes spin4 {
+0% {transform: rotateY(40deg) rotateX(120deg) translate3d(0,0,350px) rotateX(-120deg) rotateY(-40deg); z-index:7; opacity:0.7;}
+22% {opacity:0.5; z-index:6;}
+66% {opacity:1; z-index:10;}
+100% {transform: rotateY(40deg) rotateX(480deg) translate3d(0,0,350px) rotateX(-480deg) rotateY(-40deg); z-index:7; opacity:0.7;}
+}
+@keyframes spin5 {
+0% {transform: rotateY(40deg) rotateX(160deg) translate3d(0,0,350px) rotateX(-160deg) rotateY(-40deg); z-index:6; opacity:0.6;}
+11% {opacity:0.5; z-index:6;}
+55% {opacity:1; z-index:10;}
+100% {transform: rotateY(40deg) rotateX(520deg) translate3d(0,0,350px) rotateX(-520deg) rotateY(-40deg); z-index:6; opacity:0.6;}
+}
+@keyframes spin6 {
+0% {transform: rotateY(40deg) rotateX(200deg) translate3d(0,0,350px) rotateX(-200deg) rotateY(-40deg); z-index:6; opacity:0.6;}
+44% {opacity:1; z-index:10;}
+88% {opacity:0.5; z-index:6;}
+100% {transform: rotateY(40deg) rotateX(560deg) translate3d(0,0,350px) rotateX(-560deg) rotateY(-40deg); z-index:6; opacity:0.6;}
+}
+@keyframes spin7 {
+0% {transform: rotateY(40deg) rotateX(240deg) translate3d(0,0,350px) rotateX(-240deg) rotateY(-40deg); z-index:7; opacity:0.7;}
+33% {opacity:1; z-index:10;}
+77% {opacity:0.5; z-index:6;}
+100% {transform: rotateY(40deg) rotateX(600deg) translate3d(0,0,350px) rotateX(-600deg) rotateY(-40deg); z-index:7; opacity:0.7;}
+}
+@keyframes spin8 {
+0% {transform: rotateY(40deg) rotateX(280deg) translate3d(0,0,350px) rotateX(-280deg) rotateY(-40deg); z-index:8; opacity:0.8;}
+22% {opacity:1; z-index:10;}
+66% {opacity:0.5; z-index:6;}
+100% {transform: rotateY(40deg) rotateX(640deg) translate3d(0,0,350px) rotateX(-640deg) rotateY(-40deg); z-index:8; opacity:0.8;}
+}
+@keyframes spin9 {
+0% {transform: rotateY(40deg) rotateX(320deg) translate3d(0,0,350px) rotateX(-320deg) rotateY(-40deg); z-index:9; opacity:0.9;}
+11% {opacity:1; z-index:10;}
+55% {opacity:0.5; z-index:6;}
+100% {transform: rotateY(40deg) rotateX(680deg) translate3d(0,0,350px) rotateX(-680deg) rotateY(-40deg); z-index:9; opacity:0.9;}
+}
+
+</style>
+<script type="text/javascript">
+
+function setbackground()
+{
+window.setTimeout( "setbackground()", 120); // 60 milliseconds delay
+
+var index = Math.round(Math.random() * 9);
+
+var ColorValue = "FFFFFF"; // default color - white (index = 0)
+
+if(index == 1)
+ColorValue = "AA0000"; 
+if(index == 2)
+ColorValue = "0000AA"; 
+if(index == 3)
+ColorValue = "AA00AA"; 
+if(index == 4)
+ColorValue = "00AAAA"; 
+if(index == 5)
+ColorValue = "AAAA00"; 
+if(index == 6)
+ColorValue = "000000"; 
+if(index == 7)
+ColorValue = "00AA00"; 
+if(index == 8)
+ColorValue = "AAAAAA"; 
+if(index == 9)
+ColorValue = "BBBBBB"; 
+
+
+document.getElementsByTagName("body")[0].style.backgroundColor = "#" + ColorValue;
+
+
+
+
+}
+</script>
+    </head>
+   
+<body onload="setbackground();"> 
+
+
+
+
+<div class="container">
+<div class="rotate">
+<img class="p1" src="img/black.png" alt="">
+<img class="p2" src="img/blue.png" alt="">
+<img class="p3" src="img/cyan.png" alt="">
+<img class="p4" src="img/purple.png" alt="">
+<img class="p5" src="img/red.png" alt="">
+<img class="p6" src="img/green.png" alt="">
+<img class="p7" src="img/yellow.png" alt="">
+<img class="p8" src="img/white.png" alt="">
+<img class="p9" src="img/grey.png" alt="">
+</div>
+</div>
+
+		</div></body>
+<!-- Mirrored from x20xx.com/ferriswheel.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 30 Nov 2022 06:26:19 GMT -->
+</html>
